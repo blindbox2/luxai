@@ -1,0 +1,10 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Code\Python\LuxAI\custom\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 107, in agent
+    for city in player.city.values():
+AttributeError: 'Player' object has no attribute 'city'
+Agent timed out

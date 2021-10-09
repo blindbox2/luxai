@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Code\Python\LuxAI\custom\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 124, in agent
+    resource_tiles = find_resource_tiles(game_state)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 19, in find_resource_tiles
+    annotate.text(cell.pos, "test")
+TypeError: text() missing 1 required positional argument: 'message'
+Agent timed out

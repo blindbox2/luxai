@@ -1,0 +1,14 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Code\Python\LuxAI\custom\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 95, in agent
+    action = determine_worker_action(player, unit, resource_tiles)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 64, in determine_worker_action
+    action = mine(player, unit, resource_tiles)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 42, in mine
+    if dist < closest_dist:
+UnboundLocalError: local variable 'closest_dist' referenced before assignment
+Agent timed out

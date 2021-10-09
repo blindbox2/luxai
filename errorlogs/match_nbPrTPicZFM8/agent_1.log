@@ -1,0 +1,14 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Code\Python\LuxAI\custom\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 131, in agent
+    action = determine_worker_action(game_state, player, unit, resource_tiles)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 98, in determine_worker_action
+    elif city_count < 2 and not unit.can_build(game_state):
+  File "C:\Code\Python\LuxAI\custom\lux\game_objects.py", line 107, in can_build
+    cell = game_map.get_cell_by_pos(self.pos)
+AttributeError: 'Game' object has no attribute 'get_cell_by_pos'
+Agent timed out

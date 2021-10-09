@@ -1,0 +1,16 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Code\Python\LuxAI\custom\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 126, in agent
+    action = determine_worker_action(player, unit, resource_tiles)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 95, in determine_worker_action
+    action = build_city(player, unit)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 75, in build_city
+    empty_tiles = find_empty_tiles(game_state)
+  File "C:\Code\Python\LuxAI\custom\agent.py", line 38, in find_empty_tiles
+    width, height = game_state.map.width, game_state.map.height   
+AttributeError: 'Player' object has no attribute 'map'
+Agent timed out

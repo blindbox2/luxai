@@ -1,0 +1,8 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Code\Python\LuxAI\custom\main.py", line 36, in <module>
+    print(",".join(actions))
+TypeError: sequence item 0: expected str instance, list found
+Agent timed out
